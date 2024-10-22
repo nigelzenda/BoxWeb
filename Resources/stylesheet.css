@@ -12,12 +12,14 @@ body {
     padding-bottom: 20px;
     padding-left: 3%;
     padding-right: 3%;
-    text-align:center;
+    text-align: center;
+    align-items: center;
   }
   
   .navigation li {
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 2px;
+    
   }
   
   .navigation  li.logo {
@@ -101,6 +103,7 @@ body {
   .share a {
     background: red;
     border: 1px solid red;
+    padding: 5px;
     border-radius: 3px;
     color: white;
     display: inline-block;
