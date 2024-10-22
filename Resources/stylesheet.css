@@ -4,47 +4,51 @@ body {
   }
   
   .navigation ul {
+    display:flex; /* Align items all inline */
+    justify-content: space-between; /* Add space between the items placed inline */
+    list-style:none; /* Remove bullet points from a list */
     margin: 0;
-    padding: 0;
-    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align:center;
   }
   
   .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 20px;
   }
   
   .navigation  li.logo {
     color: black;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 19px;
+    font-weight: bold;
     letter-spacing: 4px;
   }
   
   #banner {
-    background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-image: url("/Resources/images/roberto-nickson-Gvm2wM3V5PA-unsplash.jpg");
     background-size: cover;
     background-position: bottom center;
-    height: 700px;
     width: 100%;
+    height: 500px;
   }
   
   #banner .content h1 {
-    border: 3px solid white;
     position: relative;
-    top: 50px;
-    width: 400px;
+    top: 150px;
     margin: 0 auto;
+    width: 40%;
+    background-color: hsla(0, 0%, 0%, 0.4);
+    border-radius: 5px;
+    padding: 20px;
   }
   
   #main {
-    margin: 0 auto;
     padding: 40px;
     text-align: center;
     width: 400px;
-    height: 1000px;
-    overflow: scroll;
   }
   
   h1 {
@@ -55,12 +59,9 @@ body {
   }
   
   h2 {
-    border: 1px dotted red;
     color: red;
     font-size: 14px;
     line-height: 48px;
-    padding: 20px 30px;
-    margin: 30px 20px;
     text-align: center;
   }
   
@@ -75,13 +76,10 @@ body {
     color: grey;
     font-size: 16px;
     line-height: 48px;
-    margin-top: 60px;
-    padding: 10px 20px;
   }
   
   .pull-quote {
-    margin: 0 auto;
-    width: 400px;
+    width: 350px;
   }
   
   .byline {
@@ -106,8 +104,6 @@ body {
     border-radius: 3px;
     color: white;
     display: inline-block;
-    margin: 10px;
-    padding: 14px;
     text-decoration: none;
   }
   
